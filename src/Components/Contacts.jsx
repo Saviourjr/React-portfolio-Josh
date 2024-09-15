@@ -1,6 +1,7 @@
 import React from 'react'
 import { CONTACT } from '../constants'
 import { motion } from 'framer-motion'
+import Image from '../assets/birthday.png'
 const Contacts = () => {
   return (
     <div className='border-b border-neutral-900'>
@@ -8,7 +9,7 @@ const Contacts = () => {
      whileInView={{opacity:1, y:0}}
      initial={{opacity:0, y:-100}}
      transition={{duration:0.5}}
-     className='my-10 text-center text-4xl'>Get In Touch</motion.h1>
+     className='my-10 text-center text-4xl'>Birthday Wish</motion.h1>
      <div
      
      className='text-center tracking-tighter'>
@@ -25,8 +26,9 @@ const Contacts = () => {
         
         className='my-4'>{CONTACT.phoneNo}</motion.p>
          <a href="#" className='border-b'>{CONTACT.email}</a>
+         
     </div>
-    </div>
+   <img src={Image} alt="" /> </div>
   )
 }
 

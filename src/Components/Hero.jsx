@@ -22,7 +22,7 @@ const Hero = () => {
                initial='hidden'
                animate="visible"
                 className='pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl'>
-                    Ikulayo Joshua
+                  Happy Birthday Esther Ibukunoluwa 🎶🎂🎇🎈🍾
                     </motion.h1>
             
             <motion.span   
@@ -30,7 +30,7 @@ const Hero = () => {
             initial='hidden'
             animate="visible"
    className='bg-gradient-to-r from-purple-300 via-slate-500 to-blue-500 bg-clip-text text-3xl tracking-tight text-transparent'>
-                Frontend Developer
+                A beautiful princess 😊❤️
                 </motion.span>
            <motion.p 
            variants={container(1)}
