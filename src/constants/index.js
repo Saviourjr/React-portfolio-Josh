@@ -1,7 +1,7 @@
+import project5 from "../assets/projects/project5.png";
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+
 
 export const HERO_CONTENT = `Highly competent Front-end Developer with a knack for Frontend Engineering. Experienced in developing websites and web applications using HTML, CSS, JavaScript,ReactJs and DOM. Proven team player with a passion for building top-quality user interfaces. Seeking to leverage skills and experiences to contribute to your Hub Center's success.`;
 
@@ -30,6 +30,12 @@ export const EDUCATIONS = [
 ];
 
 export const PROJECTS = [
+  {
+    title:"Damodex Engineering",
+    image: project5,
+    description: "A responsive and landing commercial website. Built with Html,Css and Js. it is fully responsive on all media screens and eye catching  ",
+    technologies: ["HTML", "CSS", "JAVASCRIPT"],
+  },
   {
     title: "To-Do List",
     image: project1,
