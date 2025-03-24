@@ -22,7 +22,7 @@ const Navbar = () => {
           {" "}
           <FaInstagram />
         </a>
-        <a href="https://www.twitter.com/saviour_jnr10">
+        <a href="https://www.twitter.com/Josh_XM01">
           <FaSquareXTwitter />
         </a>
       </div>
